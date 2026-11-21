@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "label-noise-type-fingerprint"
+version = "0.1.0"
+description = "Diagnose which kind of label noise a dataset has -- uniform, class-dependent, instance-dependent or boundary-concentrated -- from model-free fingerprint statistics of the labelled data itself, matched against a seeded reference bank of the four noise processes, with the remedy each diagnosed type implies."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Amna Raheeba" }]
+
+[tool.setuptools]
+packages = ["noise_fingerprint"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
