@@ -1,0 +1,31 @@
+{
+  "actual_rate": 0.1829787234042553,
+  "diagnosis": {
+    "confidence": 0.24028551419445826,
+    "distances": {
+      "boundary": 0.6413568369041195,
+      "class_dependent": 0.8668539190744168,
+      "instance_dependent": 0.8442077242536193,
+      "uniform": 0.9151904099394156
+    },
+    "estimated_rate": 0.1875,
+    "fingerprint": {
+      "disagree_rate": 0.2127659574468085,
+      "dup_conflict_rate": 0.32608695652173914,
+      "dup_ratio": 1.5326086884489132,
+      "high_margin_rate_ratio": 0.32721518833550634,
+      "low_margin_share": 0.63,
+      "margin_contrast": 1.5708617258204554,
+      "pair_asymmetry": 0.09090909090909091,
+      "pair_concentration": 0.18,
+      "region_residual": 0.03034503539637175,
+      "shell_decay": 0.02127659574468085
+    },
+    "predicted_type": "boundary"
+  },
+  "n_dup_pairs": 50,
+  "n_points": 470,
+  "noise_type": "boundary",
+  "planted_rate": 0.2,
+  "seed": 7
+}

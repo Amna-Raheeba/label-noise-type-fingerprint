@@ -1,0 +1,44 @@
+{
+  "bank_rates": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "fingerprint_keys": [
+    "disagree_rate",
+    "low_margin_share",
+    "margin_contrast",
+    "high_margin_rate_ratio",
+    "pair_concentration",
+    "pair_asymmetry",
+    "dup_conflict_rate",
+    "dup_ratio",
+    "region_residual",
+    "shell_decay"
+  ],
+  "n_classes": 4,
+  "n_features": 6,
+  "n_points": 420,
+  "noise_types": [
+    "uniform",
+    "class_dependent",
+    "instance_dependent",
+    "boundary"
+  ],
+  "rates": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "seeds": [
+    11,
+    23,
+    37
+  ]
+}
